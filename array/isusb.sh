@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#judge if $1 is in array, which value is 1-6.
 isusb () {
   local var
   for var in "${@:2}"; do [[ "$var" == "$1" ]] && return 0; done

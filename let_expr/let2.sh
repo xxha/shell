@@ -1,5 +1,9 @@
 #!/bin/bash
+
 n=20
-#let n+=1
+echo old n = $n
+
+#using let
 let n=n+1
-echo "n = $n"
+
+echo "new n = $n"

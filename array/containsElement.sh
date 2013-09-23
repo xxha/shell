@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+# used to judge if $1 is contained in array.
 containsElement () {
   local e
   for e in "${@:2}"; do [[ "$e" == "$1" ]] && return 0; done

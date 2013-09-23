@@ -1,8 +1,10 @@
 #!/bin/bash
 
-#for int i
 array=("hello" "dog" "xxha" "chunzi")
 
+#judge if $1 is contained in array[]\
+
+#for int i
 function contained_int ()
 {
 	for i in "${array[@]}"

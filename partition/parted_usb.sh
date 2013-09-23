@@ -1,4 +1,5 @@
 #!/bin/sh
+
 #the partitions size different according to the sector size.
 #normal usb sector size is 512, some mmcblk* device sector size is 64*512 = 32768.
 

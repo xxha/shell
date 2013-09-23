@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# try to mount /dev/sdax, x=[1-5], sdax is usually usb-stick.
 for ((i=1;i<=5;i++)); do
 	echo "sda$i"
 	if [ -b /dev/sda$i ]; then

@@ -1,6 +1,6 @@
 # !/bin/sh
 
-i=1
+#test while loop
 function test_while(){
 	i=1
 	while [ $i ]
@@ -13,6 +13,7 @@ function test_while(){
 	done
 }
 
+#test for loop
 function test_for(){
 	i=1
 	for ((i=1; i<=100;i++)); do
@@ -23,6 +24,7 @@ function test_for(){
 done
 }
 
+#test continue
 function test_continue(){
 	i=1
 	for i in $(seq 100); do

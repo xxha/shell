@@ -3,6 +3,7 @@
 
 usbx=(0 1 2 3 4 5)
 
+#allocate ip address for boards.
 for i in ${usbx[*]}
 do
 	x86_ip=`expr $i \* 5 + 1`

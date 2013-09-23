@@ -1,5 +1,6 @@
 #!/bin/sh
 
+#configure git enviroments 
 git config --global color.status auto
 git config --global color.diff true
 git config --global core.editor vim

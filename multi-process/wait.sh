@@ -1,5 +1,7 @@
 #!/bin/sh
 
+
+#wait for process complete
 i=1
 for i in `seq 10`
 do

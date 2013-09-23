@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#for ((i=1;i<=5;i++)); do
+#try to mount /dev/sdbx, x=[1-100]
 for i in `seq 100`; do
 	echo "you are a kid!"
 	echo "sdb$i"

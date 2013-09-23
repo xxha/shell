@@ -8,8 +8,6 @@ j=0
 while [ $i -lt 20 ]; do
 
 	let j=$i%2;
-	#echo "j = $j\n"
-	#if [ $j == 1 ]; then
 	if [ $j -eq 1 ]; then  # the same as above 
 		echo -n "$i "
 	fi

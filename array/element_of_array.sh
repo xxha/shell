@@ -1,6 +1,6 @@
 #!/bin/bash
-#judge if an variable is in a array or not.
 
+#judge if an variable is in a array or not.
 function contains() {
     local n=$#
     local value=${!n}

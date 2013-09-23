@@ -2,6 +2,7 @@
 clear
 
 i=1
+#using while
 while (($i<100))
 do
 	if (($i%3==0))

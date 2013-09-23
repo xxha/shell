@@ -1,5 +1,6 @@
 #!/bin/sh
 
+#using grep return value
 /usr/app/startup > /usr/config.log
 grep "SIOCSIFNETMASK" /usr/config.log
 if [ $? -ne 0 ]; then
