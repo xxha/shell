@@ -1,0 +1,13 @@
+#!/bin/sh
+
+pid_to_wait=`pidof v400-monitor`
+if test "x$pid_to_wait" != "x"; then
+	echo -n "kill v400-monitor(pid=$pid_to_wait): "
+	kill $pid_to_wait
+	while test -d "/proc/$pid_to_wait"; do
+		echo -n "."
+		sleep 1
+	done
+	echo " done!"
+fi
+
